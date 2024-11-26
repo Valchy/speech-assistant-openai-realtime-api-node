@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"builds": [
+		{
+			"src": "index.js",
+			"use": "@vercel/node",
+			"config": {
+				"includeFiles": ["logger.js", "constants.js", ".env"]
+			}
+		}
+	],
+	"routes": [{ "src": "/(.*)", "dest": "index.js" }],
+	"env": {
+		"OPENAI_API_KEY": "@openai_api_key",
+		"PORT": "3000"
+	}
+}
