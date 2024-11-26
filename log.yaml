@@ -1,0 +1,398 @@
+Received event: rate_limits.updated {
+  type: 'rate_limits.updated',
+  event_id: 'event_AXm5uhqwAOwiEwbNYYPmb',
+  rate_limits: [
+    {
+      name: 'requests',
+      limit: 100,
+      remaining: 44,
+      reset_seconds: 48098.245
+    },
+    {
+      name: 'tokens',
+      limit: 20000,
+      remaining: 8454,
+      reset_seconds: 34.638
+    }
+  ]
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm5vHXgQSvIS4Lpe9RK2',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm5uzY9R6Z1DouolPvt6',
+    status: 'completed',
+    status_details: null,
+    output: [ [Object] ],
+    usage: {
+      total_tokens: 6922,
+      input_tokens: 6838,
+      output_tokens: 84,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm5zaFHchROuGEShIXpC',
+  audio_start_ms: 5856,
+  item_id: 'item_AXm5z3EugrlT4MqebOn29'
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm60F2UgfWAAUcOrUu6e',
+  audio_end_ms: 6752,
+  item_id: 'item_AXm5z3EugrlT4MqebOn29'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm60Ay2BOhyLVKxQDD4x',
+  previous_item_id: 'item_AXm5uPUOByj9FQKajAvNQ',
+  item_id: 'item_AXm5z3EugrlT4MqebOn29'
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm60OwV13ZvDVxN3DVek',
+  audio_start_ms: 6912,
+  item_id: 'item_AXm60fHyWjz7inQpp7DOg'
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm600fgQ2V6C7GIRlm6O',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm60Fh4CtVVYeGs6wS3T',
+    status: 'cancelled',
+    status_details: { type: 'cancelled', reason: 'turn_detected' },
+    output: [],
+    usage: {
+      total_tokens: 0,
+      input_tokens: 0,
+      output_tokens: 0,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm63avwf1V5NCG2oHLdV',
+  audio_end_ms: 9632,
+  item_id: 'item_AXm60fHyWjz7inQpp7DOg'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm63Tbjb84CxLutMcxLc',
+  previous_item_id: 'item_AXm5z3EugrlT4MqebOn29',
+  item_id: 'item_AXm60fHyWjz7inQpp7DOg'
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm63ZB8ih9UmY0LsbFlO',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm630Cp2rqzTYRCXqGxN',
+    status: 'failed',
+    status_details: { type: 'failed', error: [Object] },
+    output: [],
+    usage: {
+      total_tokens: 0,
+      input_tokens: 0,
+      output_tokens: 0,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm63jtNu8UQhlAWwWUWu',
+  audio_start_ms: 9952,
+  item_id: 'item_AXm63gsNoBL99RElFwb7X'
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm64YXYEPobRQZjo7pEI',
+  audio_end_ms: 10272,
+  item_id: 'item_AXm63gsNoBL99RElFwb7X'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm64xDWtyNCvRJj08ymi',
+  previous_item_id: 'item_AXm60fHyWjz7inQpp7DOg',
+  item_id: 'item_AXm63gsNoBL99RElFwb7X'
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm64BlmKQqTMKsLbpX0R',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm64dbn5y2eapDP7mmSM',
+    status: 'failed',
+    status_details: { type: 'failed', error: [Object] },
+    output: [],
+    usage: {
+      total_tokens: 0,
+      input_tokens: 0,
+      output_tokens: 0,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm6A3ZGsTCwWkLgCSaIc',
+  audio_start_ms: 16128,
+  item_id: 'item_AXm6A3kbfaV64XV5vVNzl'
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm6CdgnNUWOsjnNfwjkV',
+  audio_end_ms: 18816,
+  item_id: 'item_AXm6A3kbfaV64XV5vVNzl'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm6C3rZ8dihQD5s98YRt',
+  previous_item_id: 'item_AXm63gsNoBL99RElFwb7X',
+  item_id: 'item_AXm6A3kbfaV64XV5vVNzl'
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm6CXApp1c0TNZC3ZXM3',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm6CiGjnyhk7MdRuhXM3',
+    status: 'failed',
+    status_details: { type: 'failed', error: [Object] },
+    output: [],
+    usage: {
+      total_tokens: 0,
+      input_tokens: 0,
+      output_tokens: 0,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm6JtciHoz6SbcgvZa3O',
+  audio_start_ms: 25824,
+  item_id: 'item_AXm6Jknnxc4qdzuHWQDl2'
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm6Nxrpr2VOja92ymNSS',
+  audio_end_ms: 29248,
+  item_id: 'item_AXm6Jknnxc4qdzuHWQDl2'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm6NEBKp1UbUOTHlkJMi',
+  previous_item_id: 'item_AXm6A3kbfaV64XV5vVNzl',
+  item_id: 'item_AXm6Jknnxc4qdzuHWQDl2'
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm6Nmpn4XN0oNu4FAM73',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm6NpGLJAhLv9DLvsboO',
+    status: 'failed',
+    status_details: { type: 'failed', error: [Object] },
+    output: [],
+    usage: {
+      total_tokens: 0,
+      input_tokens: 0,
+      output_tokens: 0,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm6XlQyLZFS7tDx5H2Yc',
+  audio_start_ms: 39264,
+  item_id: 'item_AXm6Xgsyii8T3fBi50eRF'
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm6ZzeqA3bPZvn2DlUCP',
+  audio_end_ms: 41856,
+  item_id: 'item_AXm6Xgsyii8T3fBi50eRF'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm6Z55NxsbI6G03BjMdU',
+  previous_item_id: 'item_AXm6Jknnxc4qdzuHWQDl2',
+  item_id: 'item_AXm6Xgsyii8T3fBi50eRF'
+}
+Received event: rate_limits.updated {
+  type: 'rate_limits.updated',
+  event_id: 'event_AXm6bxAgQmOdHhJyn0uNX',
+  rate_limits: [
+    {
+      name: 'requests',
+      limit: 100,
+      remaining: 38,
+      reset_seconds: 53240.441
+    },
+    {
+      name: 'tokens',
+      limit: 20000,
+      remaining: 3072,
+      reset_seconds: 50.782
+    }
+  ]
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm6jQZAMaQo3JgOH3NLO',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm6ZsUj1DU2ibWXmrv3J',
+    status: 'completed',
+    status_details: null,
+    output: [ [Object] ],
+    usage: {
+      total_tokens: 8174,
+      input_tokens: 7086,
+      output_tokens: 1088,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm7AgDHawOwn5QqjZgu6',
+  audio_start_ms: 78304,
+  item_id: 'item_AXm7AwxwYCwg1DDKx8jqh'
+}
+Received event: error {
+  type: 'error',
+  event_id: 'event_AXm7A00Hl4Cg3OdOJi0Bm',
+  error: {
+    type: 'invalid_request_error',
+    code: null,
+    message: 'Audio content of 42300ms is already shorter than 77220ms',
+    param: null,
+    event_id: null
+  }
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm7BgGoVu8b2tJsnjTk8',
+  audio_end_ms: 79936,
+  item_id: 'item_AXm7AwxwYCwg1DDKx8jqh'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm7BAlC9gAzoyJwZwQNX',
+  previous_item_id: 'item_AXm6Z2DshdV4rJ4PhdQPR',
+  item_id: 'item_AXm7AwxwYCwg1DDKx8jqh'
+}
+Received event: rate_limits.updated {
+  type: 'rate_limits.updated',
+  event_id: 'event_AXm7D7bpRQiGFW95Gvx9p',
+  rate_limits: [
+    {
+      name: 'requests',
+      limit: 100,
+      remaining: 37,
+      reset_seconds: 54066.322
+    },
+    {
+      name: 'tokens',
+      limit: 20000,
+      remaining: 6083,
+      reset_seconds: 41.75
+    }
+  ]
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm7STeiODa8IjUZv1sW3',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm7BDag4EEa07TC6LqzS',
+    status: 'completed',
+    status_details: null,
+    output: [ [Object] ],
+    usage: {
+      total_tokens: 9910,
+      input_tokens: 7964,
+      output_tokens: 1946,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm7nFmykhQ5DocYRp6js',
+  audio_start_ms: 117312,
+  item_id: 'item_AXm7nfsqqAnWrgMKQyV9b'
+}
+Received event: input_audio_buffer.speech_stopped {
+  type: 'input_audio_buffer.speech_stopped',
+  event_id: 'event_AXm7qJkd12xADpzFcBayT',
+  audio_end_ms: 120320,
+  item_id: 'item_AXm7nfsqqAnWrgMKQyV9b'
+}
+Received event: input_audio_buffer.committed {
+  type: 'input_audio_buffer.committed',
+  event_id: 'event_AXm7qnnAx4omvB3jja86B',
+  previous_item_id: 'item_AXm7BOzLJMLdx9NH8c0rh',
+  item_id: 'item_AXm7nfsqqAnWrgMKQyV9b'
+}
+Received event: rate_limits.updated {
+  type: 'rate_limits.updated',
+  event_id: 'event_AXm7rYVzbUYs4YrRa1yXe',
+  rate_limits: [
+    {
+      name: 'requests',
+      limit: 100,
+      remaining: 36,
+      reset_seconds: 54889.945
+    },
+    {
+      name: 'tokens',
+      limit: 20000,
+      remaining: 6730,
+      reset_seconds: 39.81
+    }
+  ]
+}
+Received event: response.done {
+  type: 'response.done',
+  event_id: 'event_AXm80nJoNiVPrChVIFg1k',
+  response: {
+    object: 'realtime.response',
+    id: 'resp_AXm7qDrgduBLrJ7AVtcYP',
+    status: 'completed',
+    status_details: null,
+    output: [ [Object] ],
+    usage: {
+      total_tokens: 9929,
+      input_tokens: 8720,
+      output_tokens: 1209,
+      input_token_details: [Object],
+      output_token_details: [Object]
+    }
+  }
+}
+Received event: input_audio_buffer.speech_started {
+  type: 'input_audio_buffer.speech_started',
+  event_id: 'event_AXm84ozcy0EVDLchdY8Qn',
+  audio_start_ms: 134784,
+  item_id: 'item_AXm84chpu6zqYZQ8p6KtA'
+}
+Received non-media event: stop
+Client disconnected.
+Disconnected from the OpenAI Realtime API
