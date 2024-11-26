@@ -53,6 +53,9 @@ fastify.all('/incoming-call', async (request, reply) => {
 	const twimlResponse = `<?xml version="1.0" encoding="UTF-8"?>
                           <Response>
                               <Connect>
+								  <Pause length="1"/>
+								  <Say>Hello</Say>
+								  <Pause length="1"/>
                                   <Stream url="wss://${request.headers.host}/media-stream" />
                               </Connect>
                           </Response>`;
@@ -90,7 +93,7 @@ fastify.register(async fastify => {
 					voice: VOICE,
 					instructions: SYSTEM_MESSAGE,
 					modalities: ['text', 'audio'],
-					temperature: 0.5
+					temperature: 0.8
 				}
 			};
 
@@ -99,7 +102,7 @@ fastify.register(async fastify => {
 			openAiWs.send(JSON.stringify(sessionUpdate));
 
 			// Uncomment the following line to have AI speak first:
-			sendInitialConversationItem();
+			// sendInitialConversationItem();
 		};
 
 		// Send initial conversation item if AI talks first
